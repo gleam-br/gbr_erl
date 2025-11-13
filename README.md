@@ -49,7 +49,8 @@ gleam test  # Run the tests
 
 ## 🌄 Roadmap
 
-- [ ] First functions
+- [x] First fn `erl.zip` ✒️
+- [x] and type `zip.Zip` 🎨
 - [ ] Unit tests
 - [ ] More docs
 - [ ] GH workflow
