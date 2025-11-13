@@ -3,7 +3,6 @@ name: Converte Issues para Docs
 on:
   issues:
     types:
-      - labeled
       - edited
 
 jobs:
