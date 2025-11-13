@@ -2,26 +2,27 @@
 //// Gleam erlang zip module:
 ////
 //// ```gleam
-//// import gbr/erl
-//// import gbr/erl/zip
+////  import gbr/erl
+////  import gbr/erl/zip
 ////
-//// pub fn main() -> Nil {
-////  let zip =
-////    erl.zip("compact.zip", ["./src/erl/zip.gleam"])
-//// |> zip.memory()
-////      |> zip.comment("Comment zip file")
-////    |> zip.cwd(".")
-////   |> zip.zip()
+////  pub fn main() -> Nil {
+////   let zip =
+////     erl.zip("compact.zip", ["./src/erl/zip.gleam"])
+////       |> zip.memory()
+////       |> zip.comment("Comment zip file")
+////       |> zip.cwd(".")
+////       |> zip.zip()
 ////
-//// case zip {
-////  Ok(zip.File(name, binary)) -> {
-////  todo
+////  case zip {
+////     Ok(zip.File(name, binary)) -> {
+////       todo
+////     }
+////     Error(_error) -> {
+////       todo
+////     }
+////   }
 ////  }
-////  Error(_error) -> {
-////    todo
-////  }
-////  }
-//// }
+//// ```
 ////
 
 import gleam/dynamic.{type Dynamic}
