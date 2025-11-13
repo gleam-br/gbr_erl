@@ -11,10 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_WORKFLOW_TOKEN }}
       - uses: eunjae-lee/issue-to-markdown@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_WORKFLOW_TOKEN }}
           dest: "./doc/issues"
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
