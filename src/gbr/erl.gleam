@@ -4,6 +4,6 @@
 
 import gbr/erl/zip
 
-/// New zip type uses in module zip.
+/// Zip type see zip module
 ///
 pub const zip = zip.new
