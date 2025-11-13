@@ -9,7 +9,7 @@ Erlang library to gleam by @gleam-br.
 gleam add gbr_erl@1
 ```
 
-Example: Zip files only in memory:
+Zip files only in memory:
 
 ```gleam
 import gbr/erl
