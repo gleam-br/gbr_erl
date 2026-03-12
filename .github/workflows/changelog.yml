@@ -2,6 +2,8 @@ name: Changelog
 
 on:
   push:
+    branches:
+      - main
     tags:
       - "v*.*.*"
 
@@ -10,10 +12,10 @@ jobs:
     name: Generate changelog
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
