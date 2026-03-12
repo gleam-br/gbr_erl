@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- Add date_formatter by @salespaulo
+- Add GEMINI file by @salespaulo
+
+### Changed
+- Upgrade gh action/checkout@6 by @salespaulo
+- Format gleam.toml deps, targets and metadata by @salespaulo
+- Doc fix ident by @salespaulo
+- Merge branch 'main' of github.com:gleam-br/gbr_erl by @salespaulo
+- Update changelog by @github-actions[bot]
+- Doc add hex module zip by @salespaulo
+
+### Fixed
+- Fix duplicate gitignore and readme doc by @salespaulo
+- Fix gh workflow issue to doc perm contents write by @salespaulo
+- Fix gh workflow issue to doc perm contents write by @salespaulo
+- Fix gh workflow issue to doc perm contents write by @salespaulo
+- Fix gh workflow issue to doc checkout version and dest dir by @salespaulo
+- Fix gh workflow issue to doc perm contents write by @salespaulo
+- Fix gh workflow issue to doc perm contents write by @salespaulo
+- Fix gh workflow issue to doc action checkout no need token by @salespaulo
+- Fix gh workflow issue to doc secrets by @salespaulo
+- Fix gh workflow issue_to_doc only on edited by @salespaulo
+
+### Removed
+- Remove gh workflow issue to doc put in INCUBATOR to work no this after by @salespaulo
+- Remove workflow dispatch by @salespaulo
+
+## New Contributors
+* @github-actions[bot] made their first contribution
 ## [1.0.1] - 2025-11-13
 
 ### Added
@@ -32,6 +64,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## New Contributors
 * @salespaulo made their first contribution
+[unreleased]: https://github.com/gleam-br/gbr_erl/compare/v1.0.1..HEAD
 [1.0.1]: https://github.com/gleam-br/gbr_erl/compare/v1.0.0..v1.0.1
 [1.0.0]: https://github.com/gleam-br/gbr_erl/compare/v0.0.1..v1.0.0
 
